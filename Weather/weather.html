@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+  <body>
+    <h1>Live Weather Data</h1>
+    <div>
+      <input type="text" id="city-input" placeholder="Enter a city">
+      <button onclick="getWeather()">Search</button>
+    </div>
+    <div>
+      <h2 id="city-name">Selma</h2>
+      <p id="day-date"></p>
+      <p><strong>Temperature:</strong> <span id="temperature"></span></p>
+      <p><strong>Humidity:</strong> <span id="humidity"></span></p>
+      <p><strong>Pressure:</strong> <span id="pressure"></span></p>
+      <p><strong>Wind:</strong> <span id="wind"></span></p>
+      <p><strong>Visibility:</strong> <span id="visibility"></span></p>
+      <p><strong>Weather Description:</strong> <span id="weather-description"></span></p>
+    </div>
+    
+  </body>
+  <script src="weather.js"></script>
+</html>
